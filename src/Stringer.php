@@ -34,6 +34,16 @@ class Stringer
     }
 
     /**
+     * Shortcut
+     * @param string $string
+     * @return Stringer
+     */
+    public static function getInstance(string $string): self
+    {
+        return new static($string);
+    }
+
+    /**
      * @param string $string
      * @param bool $ifEmpty
      * @return $this|Stringer
