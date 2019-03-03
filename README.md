@@ -1,0 +1,3 @@
+# Stringer
+
+Strings manipulation tool.
